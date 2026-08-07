@@ -1,20 +1,13 @@
-version: "3.9"
-
 services:
-
   postgres:
-    image: postgres:16
-
+    image: postgres:16-alpine
     environment:
       POSTGRES_USER: omnifilter
       POSTGRES_PASSWORD: password
       POSTGRES_DB: omnifilter
-
     ports:
       - "5432:5432"
-
     volumes:
-      - postgres-data:/var/lib/postgresql/data
-
+      - omnifilter_postgres:/var/lib/postgresql/data
 volumes:
-  postgres-data:
+  omnifilter_postgres:
