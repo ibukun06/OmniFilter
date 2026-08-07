@@ -1,15 +1,8 @@
-export default function Dashboard() {
-
- return (
-  <div>
-
-   <h1>OmniFilter Dashboard</h1>
-
-   <p>
-    Authenticated users only
-   </p>
-
-  </div>
- )
-
+export default function DashboardPage() {
+  return (
+    <main>
+      <h1>OmniFilter Dashboard</h1>
+      <p>Welcome to your workspace.</p>
+    </main>
+  );
 }

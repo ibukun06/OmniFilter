@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 import Link from 'next/link'; export default function Page(){return <main className="shell"><h1>Dashboard</h1><div className="grid"><div className="card"><h2>Datasets</h2><p>Import CSV or JSON and filter actual records.</p><Link className="button" href="/datasets">Manage datasets</Link></div><div className="card"><h2>Saved filters</h2><p>Create reusable natural-language rules.</p><Link className="button" href="/filters">Open filter builder</Link></div><div className="card"><h2>Milestone 3</h2><p>Data ingestion, dynamic fields, real filtering, and search history are active.</p></div></div></main>}
+=======
+import Link from 'next/link'; export default function Page(){return <main className="shell"><h1>Dashboard</h1><div className="grid"><div className="card"><h2>Build a filter</h2><p>Convert a plain-language request into structured rules.</p><Link className="button" href="/filters">Open builder</Link></div><div className="card"><h2>Milestone 2</h2><p>Authentication, PostgreSQL persistence, parser, and saved filters are active.</p></div></div></main>}
+>>>>>>> origin/main

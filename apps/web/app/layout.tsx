@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 import './globals.css'; import Link from 'next/link'; export const metadata={title:'OmniFilter',description:'Filter anything intelligently'}; export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><nav className="nav"><Link className="brand" href="/">OmniFilter</Link><div className="row"><Link href="/dashboard">Dashboard</Link><Link href="/datasets">Datasets</Link><Link href="/filters">Saved filters</Link><Link href="/login">Login</Link></div></nav>{children}</body></html>}
+=======
+import './globals.css'; import Link from 'next/link'; export const metadata={title:'OmniFilter',description:'Filter anything intelligently'}; export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body><nav className="nav"><Link className="brand" href="/">OmniFilter</Link><div className="row"><Link href="/dashboard">Dashboard</Link><Link href="/filters">Saved filters</Link><Link href="/login">Login</Link></div></nav>{children}</body></html>}
+>>>>>>> origin/main

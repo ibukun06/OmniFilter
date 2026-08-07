@@ -1,26 +1,32 @@
 export default function RegisterPage() {
+  return (
+    <main>
+      <h1>Create your account</h1>
 
- return (
+      <form>
+        <div>
+          <label htmlFor="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
 
-  <main>
+        <div>
+          <label htmlFor="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
 
-    <h1>Create Account</h1>
+        <div>
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+            minLength={8}
+            required
+          />
+        </div>
 
-    <input
-      placeholder="Email"
-    />
-
-    <input
-      type="password"
-      placeholder="Password"
-    />
-
-    <button>
-      Register
-    </button>
-
-  </main>
-
- )
-
+        <button type="submit">Create account</button>
+      </form>
+    </main>
+  );
 }
