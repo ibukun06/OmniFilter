@@ -1,12 +1,11 @@
 {
-  "name": "@omnifilter/web",
+  "name": "omnifilter-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.0.0",
@@ -20,3 +19,5 @@
     "typescript": "^5.6.0"
   }
 }
+EOF
+``
